@@ -1,0 +1,357 @@
+ body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+  }
+  /*h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      
+      color: #111;
+  }*/
+  .for-h3
+  {
+  font-size:25px;
+  letter-spacing:10px;
+  
+  }
+  .for-h3-red
+  {
+   font-size:25px;
+  letter-spacing:10px;
+  color:#e20e25;
+  
+  }
+  
+  .container {
+      padding: 60px 60px;
+  }
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+      /*-webkit-filter: grayscale(90%);
+      filter: grayscale(90%);  make all photos black and white */ 
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .bg-1 {
+      background: #2d2d30;
+      color: #bdbdbd;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail p {
+      margin-top: 15px;
+      color: #555;
+  }
+  .btn {
+      z-index:-999;
+      background-color: #e20e25;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn1 {
+      z-index:-999;
+      background-color: #e20e25;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+      padding:6px 10px 6px 10px;
+      font-size:14px;
+  }
+   .btn1:hover {
+      z-index:-999;
+      background-color:#fff ;
+      color: #e20e25;
+      border: 1px solid #e20e25;
+      transition: .2s;
+      padding:6px 10px 6px 10px;
+      font-size:14px;
+      text-decoration:none;
+  }
+  .border
+  {
+  border:1px solid #ccc;
+  border-radius:15px;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+  .nav-tabs li a {
+      color: #777;
+  }
+  #googleMap {
+      width: 100%;
+      height: 400px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+  }  
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+     
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar-brand 
+  {
+  color: #fff !important;
+  }
+  .navbar li a, .navbar { 
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #e20e25 !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  footer {
+      background-color: #3c3838;
+      color: #f5f5f5;
+      padding: 12px;
+	  letter-spacing:1.5;
+	  position:fixed;bottom:0;right:0;left:0;width:100%;
+	  text-align:none;
+	  margin-top:30px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }  
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }
+  
+  h2
+  {
+  color:#e20e25;
+  }
+  
+  .dataTableImg{
+     width:100px;
+     height:100px;
+  }
+  
+  .help-block{
+     color: #ff0000;
+  }
+  
+  .adminDataTableImg
+  {
+     height:50px;
+     width:50px;  
+  }
+  
+  
+  /*Customize CSS for OrderDetail page*/
+  /* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.table {
+    margin-bottom: 0px;
+}
+
+.invoice-title h2, .invoice-title h3 {
+    display: inline-block;
+}
+
+.table > tbody > tr > .no-line {
+    border-top: none;
+}
+
+.table > thead > tr > .no-line {
+    border-bottom: none;
+}
+
+.table > tbody > tr > .thick-line {
+    border-top: 2px solid;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+    background:#ffffff;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+      background:#ffffff;
+}
+
+.main {
+  background:#f1f1f1;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 20px 0 0 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.panel-title {display: inline;font-weight: bold;}
+.checkbox.pull-right { margin: 0; }
+.pl-ziro { padding-left: 0px; }
+
+.panel {
+    border: 0px solid transparent;
+    background: #f1f1f1;
+}
+
+.panel-default>.panel-heading .badge {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.container {
+    background: #ffffff;
+    border-radius:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.panel-heading {
+    border-bottom: 0px solid #555555 !important;
+}
+
+.panel-default>.panel-heading {
+    color: #ffffff;
+    background-color: #428bca;
+    padding-bottom: 1px !important;
+}
+
+
+/*CSS for Cart*/
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:20%;
+		display: inline !important;
+}
+.actions .btn{
+		width:36%;
+		margin:1.5em 0;
+	}
+	
+.actions .btn-info{
+		float:left;
+	}
+.actions .btn-danger{
+		float:right;
+	}
+	
+table#cart thead { display: none; }
+table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+table#cart tbody tr td:first-child { background: #333; color: #fff; }
+table#cart tbody td:before {
+		content: attr(data-th); font-weight: bold;
+		display: inline-block; width: 8rem;
+	}
+		
+table#cart tfoot td{display:block; }
+table#cart tfoot td .btn{display:block;}
+	
+}
